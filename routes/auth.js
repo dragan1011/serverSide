@@ -10,7 +10,7 @@ router.post("/register", (req, res) => {
   const gender = "M";
   const email = "test@test.com";
   const birth_date = "2001-11-10";
-  const phone_number = "066-139/450";
+  const phone_number = "000-000-000";
 
   db.query(
     "INSERT INTO users (username, password, first_name, last_name, gender, email, phone_number, birth_date) values (?, ?, ?, ?, ?, ?, ?, ?)",
